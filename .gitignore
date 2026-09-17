@@ -1,0 +1,48 @@
+# ==========================================
+# Lung2 EGFR Radiomics
+# ==========================================
+
+# ---------- Existing research data ----------
+AIM_files_updated-11-10-2020/
+NSCLCR01Radiogenomic_DATA_LABELS_2018-05-22_1500-shifted.csv
+final_patients_egfr.csv
+
+# ---------- Research data ----------
+data/raw/
+data/clinical/
+
+# ---------- Medical imaging ----------
+*.dcm
+*.DCM
+*.nii
+*.nii.gz
+*.nrrd
+
+# ---------- Archives ----------
+*.zip
+*.7z
+*.rar
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+
+# ---------- Environments ----------
+.venv/
+venv/
+env/
+
+# ---------- Jupyter ----------
+.ipynb_checkpoints/
+
+# ---------- IDE ----------
+.vscode/
+.idea/
+
+# ---------- Windows ----------
+Thumbs.db
+desktop.ini
+
+# ---------- Temporary ----------
+*.tmp
+*.log
